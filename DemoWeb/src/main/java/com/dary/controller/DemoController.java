@@ -21,7 +21,7 @@ public class DemoController {
 		 //logica
 		 Persona p= new Persona();
 		 p.setIdPersona(2);
-		 p.setNombre("Raul");
+		 p.setNombre("Raul1");
 		 repo.save(p);
 	        model.addAttribute("name", name);
 	        return "greeting";
